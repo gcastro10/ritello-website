@@ -1,0 +1,206 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Apply a background color and font style to the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #fff; /* White background for header */
+    padding: 10px; /* Add padding for space */
+    text-align: center; /* Center align content in header */
+}
+
+#logo img {
+    max-width: 250px; /* Adjust the max-width value according to your preference */
+    height: auto;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray link color */
+}
+
+/* Main Section Styles */
+main {
+    padding: 0px;
+}
+
+/* Image Carousel Styles */
+#image-carousel {
+    width: 100%;
+    text-align: center;
+    overflow: hidden; /* Hide any content overflowing from the container */
+}
+
+.image-slider {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory; /* Ensure smooth scrolling between images */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+    transition: transform 5s ease;
+}
+
+.image-slider img {
+    width: 100%;
+    height: auto;
+    scroll-snap-align: start; /* Snap each image to the start of the container */
+    border-radius: 2px;
+}
+
+/* Icon Links Section Styles */
+#icon-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: #333; /* Dark gray link color */
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#icon-links img {
+    margin-right: 5px;
+    height: auto;
+    width: 60px;
+}
+.icon-link a[href="https://www.facebook.com/AspiradoresAgua"] img {
+    width: 100px; /* Adjust the width of the Facebook icon */
+    height: 500px;
+    /* You can add other styles specific to the Facebook icon if needed */
+}
+/* Hero Section Styles */
+#hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#hero h1{
+    font-size: 3em;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+#hero h3 {
+    font-size: 2em;
+}
+
+#hero p {
+    font-size: 2em;
+}
+
+/* About Section Styles */
+#about {
+    margin: 20px 0;
+}
+
+/* Featured Product Section Styles */
+#featured-product {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Grid Features Section Styles */
+#grid-features {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item img {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Grid Acessorios Section Styles */
+#grid-acessorios {
+    text-align: center;
+    margin: 20px 0;
+}
+/* Certificações */
+#certificações {
+    text-align: center;
+}
+
+#certificações img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background color for footer */
+    color: white; /* White text color */
+    padding: 5px;
+    text-align: center;
+}
+
+#footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: left;
+}
+
+#footer-menu li {
+    margin-bottom: 0px;
+    color:white;
+    display: block;
+    text-align: left;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+#footer-menu a {
+    text-decoration: none;
+    color: white; /* Set text color to white for links */
+}
+
+#footer-menu h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color:white;
+}
